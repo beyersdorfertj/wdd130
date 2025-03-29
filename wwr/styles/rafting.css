@@ -7,10 +7,48 @@
 }
 
 body {
-  max-width: 800px;
+  max-width: 1000px;
   min-width: 500px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
+}
+
+body > * {
+  margin: 10px;
+}
+
+header {
+  padding: 10px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 40% 55% 5%;
+}
+
+header div {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  flex: 1 0 0;
+  background-color: #eec839;
+  border: black solid 1px;
+  padding: 0.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > * {
+  margin: 10px 0;
 }
 
 h1 {
@@ -23,8 +61,30 @@ p {
   color: var(--secondary-color);
 }
 
+section {
+  border: #2235dd solid 1px;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  background-color: #eee;
+}
+
+footer nav {
+  text-align: center;
+  width: 20%;
+}
+
+footer p {
+  width: 60%;
+  text-align: center;
+}
+
 footer nav a {
   text-decoration: none;
+  margin: 1%
 }
 
 .hero {
@@ -70,4 +130,46 @@ footer nav a {
   object-fit: cover;
   float: right;
   opacity: 1;
+}
+
+#history {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#history p {
+  width: 32%;
+  align-self: center;
+  margin: 1%;
+}
+
+#history img {
+  width: 28%;
+  object-fit: scale-down;
+  margin: 0 10px;
+}
+
+#history :first-child {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#adventure {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#adventure figure {
+  width:18%;
+  margin: 0;
+  text-align: center;
+  padding: 1%;
+}
+
+#adventure :first-child {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
 }
