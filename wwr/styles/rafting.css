@@ -65,6 +65,11 @@ section {
   border: #2235dd solid 1px;
 }
 
+figure img {
+  width: 100%;
+  object-fit: cover;
+}
+
 footer {
   padding: 10px;
   display: flex;
@@ -85,6 +90,24 @@ footer p {
 footer nav a {
   text-decoration: none;
   margin: 1%
+}
+
+column, .column {
+  display: flex;
+  flex-direction: column;
+  width: 100%-10px;
+  justify-content: space-between;
+}
+
+row, .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%-10px;
+}
+
+row figure {
+  margin: 10px
 }
 
 .hero {
@@ -172,4 +195,23 @@ footer nav a {
   text-align: center;
   width: 100%;
   margin-bottom: 0px;
+}
+
+
+#contact_figures {
+  width: 60%;
+}
+
+#contact_info {
+  width: 355px;
+  padding: 5px;
+}
+
+#aboutform {
+  height: 100%;
+  padding: 5px;
+}
+
+#lastrow_aboutform  {
+  padding-bottom: 10px;
 }

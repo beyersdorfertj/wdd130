@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>WWR - Contact</title>
+    <meta name="author" content="Thomas Jörg Beyersdorfer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="White Water Contact Form">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="images/z-excitingexpedition.jpg" alt="logo" width="200">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header> 
+  <main style="padding: 5px; width: 100%; display: flex; flex-direction: column;">
+    <row style="width: 98%;">
+      <h1>Contact Us</h1>
+      <row id="contact_figures">
+        <figure>
+          <img src="images/Emp1.jpg" alt="Tourguide Lars Ludwig">
+          <figcaption>Tourguide: Lars Ludwig</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Emp2.jpg" alt="Events: Nadja Noman">
+          <figcaption>Events: Nadja Noman</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Emp3.jpg" alt="Tourguide Ben Budz">
+          <figcaption>Tourguide: Ben Budz</figcaption>
+        </figure>
+      </row>
+    </row>
+    <row>
+      <section id="contact_info">
+        <h2>We'd love to hear from you!</h2>
+        <p>White Water Rafting<p>
+        <Phone:p>Phone: 999-999-9999</Phone:p>
+        <p>Email: <a href="mailto:">admin@wwr.com</a></p>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d756.9827889839002!2d10.27953967820996!3d47.459125904062695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1743852839175!5m2!1sde!2sde" width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>      
+      </section>
+      <section style="width: 55%">
+        <form class="column" id="aboutform" action="https://example.com/submit-form" method="POST ">
+          <h2>Contact Form</h2>
+          <p style="padding: 0; margin: 0;">If you have any questions or comments, please fill out the form below:</p>
+          <column>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </column>
+          <column>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </column>
+          <column>
+            <label for="email">Purpose of the message</label>
+            <fieldset id="purpose">
+              <input type="radio" name="purpose" id="general-inquiry">General Inquiry<br>
+              <input type="radio" name="purpose" id="reservation-question">Reservation Question<br>
+              <input type="radio" name="purpose" id="website-suggestion">Website Suggestion<br> 
+            </fieldset>
+          </column>
+          <column>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </column>
+          <row id="lastrow_aboutform">
+            <div>
+              <label for="subscribe">Subscribe to our newsletter
+              <input type="checkbox" id="subscribe" name="subscribe" value="yes"/ checked></label>
+            </div>
+            <button type="submit">Send Message</button>
+          </row>
+        </form>
+      </section>
+    <row>
+  </main>
+  <footer>
+
+    <p><a href="https://app.moqups.com/unsaved/9c00fb49/edit/page/ad64222d5">Moqups</a> 😎  &copy; 2025 😎 White Water Rafting 😎 Thomas Jörg Beyersdorfer</p>
+    <nav>
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook" width="50" height="50">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="Twitter" width="50" height="50">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram" width="50" height="50">
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
