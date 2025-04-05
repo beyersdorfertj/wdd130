@@ -197,6 +197,9 @@ row figure {
   margin-bottom: 0px;
 }
 
+#contac_team_row {
+  width: 98%;
+}
 
 #contact_figures {
   width: 60%;
