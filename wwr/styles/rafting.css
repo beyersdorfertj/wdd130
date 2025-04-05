@@ -92,21 +92,21 @@ footer nav a {
   margin: 1%
 }
 
-column, .column {
+.column {
   display: flex;
   flex-direction: column;
   width: 100%-10px;
   justify-content: space-between;
 }
 
-row, .row {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%-10px;
 }
 
-row figure {
+.row figure {
   margin: 10px
 }
 
