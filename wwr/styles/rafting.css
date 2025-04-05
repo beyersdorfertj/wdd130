@@ -153,6 +153,10 @@ footer nav a {
   opacity: 1;
 }
 
+#googl_map {
+  width: 350px;
+  height: 300px;
+}
 #history {
   display: flex;
   flex-wrap: wrap;
