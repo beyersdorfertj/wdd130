@@ -24,9 +24,9 @@
     </nav>
   </header> 
   <main style="padding: 5px; width: 100%; display: flex; flex-direction: column;">
-    <div class=""row" id="contac_team_row">
+    <div class="row" id="contac_team_row">
       <h1>Contact Us</h1>
-      <row id="contact_figures">
+      <div class="row" id="contact_figures">
         <figure>
           <img src="images/Emp1.jpg" alt="Tourguide Lars Ludwig">
           <figcaption>Tourguide: Lars Ludwig</figcaption>
@@ -39,7 +39,7 @@
           <img src="images/Emp3.jpg" alt="Tourguide Ben Budz">
           <figcaption>Tourguide: Ben Budz</figcaption>
         </figure>
-      </row>
+      </div>
     </div>
     <div class="row">
       <section id="contact_info">
@@ -55,27 +55,27 @@
         <form class="column" id="aboutform" action="https://example.com/submit-form" method="POST ">
           <h2>Contact Form</h2>
           <p style="padding: 0; margin: 0;">If you have any questions or comments, please fill out the form below:</p>
-          <column>
+          <div class="column">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-          </column>
-          <column>
+          </div>
+          <div class="column">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-          </column>
-          <column>
+          </div>
+          <div class="column">	
             <label for="email">Purpose of the message</label>
             <fieldset id="purpose">
               <input type="radio" name="purpose" id="general-inquiry">General Inquiry<br>
               <input type="radio" name="purpose" id="reservation-question">Reservation Question<br>
               <input type="radio" name="purpose" id="website-suggestion">Website Suggestion<br> 
             </fieldset>
-          </column>
-          <column>
+          </div>
+          <div class="column">
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-          </column>
-          <row id="lastrow_aboutform">
+          </div>
+          <div class="row" id="lastrow_aboutform">
             <div>
               <label for="subscribe">Subscribe to our newsletter
               <input type="checkbox" id="subscribe" name="subscribe" value="yes" checked></label>
@@ -84,7 +84,7 @@
               <label for=""submit">Send a message:</label>
               <button type="submit" name="submit" >Send</button>
             </div>
-          </row>
+          </div>
         </form>
       </section>
     </div>
