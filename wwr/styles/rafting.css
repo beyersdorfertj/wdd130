@@ -205,15 +205,17 @@ footer nav a {
 }
 
 #contac_team_row {
-  width: 98%;
-}
-
-#contact_form_section {
-  width: 55%;
+  width: calc(100% - 17px);
 }
 
 #contact_figures {
-  width: 60%;
+  width: calc(100% - 368px);
+}
+#contact_content_row {
+  width: calc(100% - 26px)
+}
+#contact_form_section {
+  width: calc(100% - 381px);
 }
 
 #contact_info {
