@@ -95,7 +95,6 @@ footer nav a {
 .column {
   display: flex;
   flex-direction: column;
-  width: 100%-10px;
   justify-content: space-between;
 }
 
