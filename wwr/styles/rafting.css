@@ -102,7 +102,6 @@ footer nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%-10px;
 }
 
 .row figure {
