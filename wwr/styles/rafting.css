@@ -199,8 +199,17 @@ footer nav a {
   margin-bottom: 0px;
 }
 
+#contact_main {
+  padding: 5px;
+  width: 100%;
+}
+
 #contac_team_row {
   width: 98%;
+}
+
+#contact_form_section {
+  width: 55%;
 }
 
 #contact_figures {
