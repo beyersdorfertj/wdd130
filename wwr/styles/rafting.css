@@ -54,7 +54,7 @@ main > * {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  color: var(--accent2-color);
+  color: var(--secondary-color);
 }
 
 p {
