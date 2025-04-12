@@ -51,10 +51,21 @@ main {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
   color: var(--secondary-color);
 }
 
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em; margin: .75em 0 
+}
+
+.h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.17em; margin: .83em 0
+}
 section, tbody tr {
   border: #2235dd solid 1px;
 }
