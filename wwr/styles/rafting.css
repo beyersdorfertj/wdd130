@@ -49,18 +49,10 @@ main {
   margin: 10px 0;
 }
 
-main > * {
-  _margin: 0px 0;
-}
-
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: var(--secondary-color);
-}
-
-p {
-  _color: var(--secondary-color);
 }
 
 section, tbody tr {
