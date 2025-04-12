@@ -22,6 +22,7 @@ header {
   background-color: #eee;
   display: grid;
   grid-template-columns: 40% 55% 5%;
+  margin: 0px;
 }
 
 header div {
@@ -45,10 +46,11 @@ header nav a {
 main {
   display: flex;
   flex-direction: column;
+  margin: 10px 0;
 }
 
 main > * {
-  margin: 10px 0;
+  _margin: 0px 0;
 }
 
 h1 {
@@ -58,10 +60,10 @@ h1 {
 }
 
 p {
-  color: var(--secondary-color);
+  _color: var(--secondary-color);
 }
 
-section {
+section, tbody tr {
   border: #2235dd solid 1px;
 }
 
@@ -71,6 +73,7 @@ figure img {
 }
 
 footer {
+  margin: 0px;
   padding: 10px;
   display: flex;
   justify-content: right;
@@ -92,6 +95,11 @@ footer nav a {
   margin: 1%
 }
 
+table {
+  border-collapse: collapse;
+}
+
+
 .column {
   display: flex;
   flex-direction: column;
@@ -110,6 +118,7 @@ footer nav a {
 
 .hero {
   position: relative;
+  grid-row: 4;
 }
 
 .hero img {
@@ -125,6 +134,18 @@ footer nav a {
   width: 100%;
   height: 50px;
   text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero h2 {
+  position: absolute;
+  margin: 0;
+	top: 0px;
+  width: 100%;
+  height: 1.3em;
+  text-align: center;
+  vertical-align: middle;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -181,9 +202,9 @@ footer nav a {
 }
 
 #adventure {
-
   display: flex;
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 
 #adventure figure {
@@ -199,25 +220,6 @@ footer nav a {
   margin-bottom: 0px;
 }
 
-#contact_main {
-  padding: 5px;
-  width: 100%;
-}
-
-#contac_team_row {
-  width: calc(100% - 17px);
-}
-
-#contact_figures {
-  width: calc(100% - 368px);
-}
-#contact_content_row {
-  width: calc(100% - 26px)
-}
-#contact_form_section {
-  width: calc(100% - 381px);
-}
-
 #contact_info {
   width: 355px;
   padding: 5px;
@@ -230,4 +232,14 @@ footer nav a {
 
 #lastrow_aboutform  {
   padding-bottom: 10px;
+}
+
+#trips_for_joy_header {
+  width: 100%;
+}
+
+#trips_for_your_joy {
+  justify-content: space-around;
+  display: flex;
+  flex: 40% auto;
 }
