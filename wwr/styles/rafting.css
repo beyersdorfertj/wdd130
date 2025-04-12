@@ -239,9 +239,3 @@ table {
 #trips_for_joy_header {
   width: 100%;
 }
-
-#trips_for_your_joy {
-  justify-content: space-around;
-  display: flex;
-  flex: 40% auto;
-}
